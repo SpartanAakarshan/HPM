@@ -70,8 +70,26 @@ header {
 .top-image {
   display: block;
   margin: 40px auto 20px auto;
-  max-width: 180px;
+  max-width: 300px;
   height: auto;
+  animation: fadeIn 1.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.coming-soon {
+  font-size: 1.8em;
+  color: #00cc88;
+  margin-bottom: 20px;
+  font-weight: bold;
+  animation: fadeIn 1s ease-in;
 }
 
 .book-btn {
